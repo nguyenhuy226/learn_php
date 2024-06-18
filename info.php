@@ -99,7 +99,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if (count($arrayOperator) == 0) {
             echo "Kết quả của biểu thức là: " . $arrayNumber[0];
-            print_r($arrayNumber);
             return;
         }
 
